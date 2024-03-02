@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.denomination-item{
+  list-style:none;
+}
+
+.denomination-button{
+  height:2.3rem;
+  width:8.8rem;
+  border-radius:0.5rem;
+  border:1px solid #c4c4c4;
+  background-color:#585076;
+  color: #c4c4c4;
+  font-size:1rem;
+  font-weight:bold;
+  font-family:"Roboto";
+}

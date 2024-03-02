@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cash-denomination{
+  background-color: #f5f5f5;
+  height:100vh;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.withdrawal-card{
+  background-color:#150b3e;
+  height:95%;
+  width:80%;
+  border-radius:1rem;
+}
+
+.first-container{
+  display: flex;
+  gap:1rem;
+  padding-left:2rem;
+  padding-top:1.5rem;
+  align-items:center;
+}
+
+.profile-img{
+  height:5rem;
+  width:5rem;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #c7d2fe;
+  color:#7c3aed;
+  font-weight:bold;
+  font-family:"Roboto";
+}
+
+.profile-name{
+  color:#c7d2fe;
+  font-family:"Roboto";
+}
+
+.second-container{
+  display: flex;
+  padding-left:2rem;
+  align-items:center;
+  gap:10rem;
+}
+
+.balance-para{
+  color:#382f5a;
+  font-family:"Roboto";
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+.balance-amount{
+  color:#d4d2db;
+  font-size:1.7rem;
+  font-weight:bold;
+  font-family:"Roboto";
+}
+
+.balance-in-rupees{
+  color:#382f5a;
+  font-family:"Roboto";
+  font-weight:bold;
+  font-size:0.8rem;
+}
+
+.withdraw{
+  color:#d4d2db;;
+  font-size:1.4rem;
+  font-weight:bold;
+  font-family:"Roboto";
+  padding-left:2rem;
+}
+
+.choose-amount{
+  color:#382f5a;
+  font-size:1rem;
+  font-weight:bold;
+  font-family:"Roboto";
+  padding-left:2rem;
+}
+
+.denomination-container{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:1rem;
+}
